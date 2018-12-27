@@ -1,5 +1,4 @@
 import threading, logging, time
-
 from kafka import KafkaConsumer, KafkaProducer
 
 class Producer(threading.Thread):
